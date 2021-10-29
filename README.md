@@ -845,9 +845,3 @@ H<sub>2</sub>O
 [code-past]:https://img-blog.csdnimg.cn/201908060004034.png
 [\[1\]]:https://baike.baidu.com/ "百度百科"
 ```
----
-title: none
-name: 无语
-编号: 
-     -l
----
