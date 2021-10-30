@@ -19,9 +19,9 @@ GitHub的markdown语法在标准的markdown语法基础上做了扩充，
 
 ****
 	
-Author |果冻虾仁
+Author |fortune
 --- |---
-E-mail |Jelly.K.Wang@qq.com
+E-mail |2310298446@qq.com
 
 
 ****
@@ -170,7 +170,7 @@ ___
 这是一段普通的文本，直接写，开头顶格
 
 ### 单行文本
-    Hello,大家好，我是果冻虾仁。
+    Hello,大家好，我是fortune。
 在一行开头加入1个Tab或者4个空格。
 
 ### 文本块
@@ -185,8 +185,8 @@ ___
 文本首、尾各3个反引号：
 ```
 欢迎到访
-我是C++码农
-你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我
+我是码农
+你可以通过GitHub搜索[Faith-Hesper]找到我
 ```
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
 
@@ -239,7 +239,7 @@ alt和title即对应HTML中的alt和title属性（都可省略）：
 URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，  
 如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
 ```
-https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+https://github.com/Faith-Hesper/Note/blob/master/img/20211030212947.png
 ```
 
 |# |语法 |效果 |
@@ -260,7 +260,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |# |语法 |效果 |
 |--- |--- |--- |
 |1 |`[我的博客](https://faith-hesper.github.io  "悬停显示")` |[我的博客](https://faith-hesper.github.io "悬停显示") |
-|2 |`[我的知乎][zhihu] ` |[我的知乎][zhihu] |
+|2 |`[我的github][github] ` |[我的github][github] |
 
 引用链接由两个[]组成：
 ```text
@@ -288,7 +288,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 |# |语法 |效果 |
 |--- |--- |:---: |
-|1 |`[![weibo-logo]](http://weibo.com/linpiaochen)` |[![weibo-logo]](http://weibo.com/linpiaochen) |
+|1 |`[![github]](https://github.com/Faith-Hesper)` |[![github-logo]](https://github.com/Faith-Hesper) |
 |2 |`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]` |[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu] |
 |3 |`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn] |
 
@@ -825,9 +825,9 @@ H<sub>2</sub>O
 
 * 定义的URL变量展示时不显示
 -->
-[blog]:http://blog.csdn.net/guodongxiaren "我的博客"
+[blog]:https://faith-hesper.github.io/ "我的博客"
 
 ```text
 // 定义URL变量
-[blog]:http://blog.csdn.net/guodongxiaren "我的博客"
+[blog]:https://faith-hesper.github.io/ "我的博客"
 ```
