@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Github markdown"
-author: 果冻虾仁
+author: fortune
 permalink: /help/dns/
 编号: 
     - 0001
@@ -259,7 +259,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 |# |语法 |效果 |
 |--- |--- |--- |
-|1 |`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")` |[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示") |
+|1 |`[我的博客](https://faith-hesper.github.io  "悬停显示")` |[我的博客](https://faith-hesper.github.io "悬停显示") |
 |2 |`[我的知乎][zhihu] ` |[我的知乎][zhihu] |
 
 引用链接由两个[]组成：
@@ -396,14 +396,14 @@ source标签中的src属性：指定音频资源URL，需要与audio标签src属
 * 语法  
 无序列表符: * - +
 ```
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-+ 英文名：Jelly
+* 昵称：fortune
+- 别名：fortune
++ 英文名：fortune
 ```
 **效果**  
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-+ 英文名：Jelly
+* 昵称：fortune
+- 别名：fortune
++ 英文名：fortune
 
 ### 多级无序列表
 * 语法
@@ -641,7 +641,7 @@ zebra stripes |are neat        |$1
     ---
     layout: page
     title: "Github markdown"
-    author: 果冻虾仁
+    author: fortune
     permalink: /help/dns/
     编号: 
         - 0001
@@ -825,23 +825,9 @@ H<sub>2</sub>O
 
 * 定义的URL变量展示时不显示
 -->
-[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
-[zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"
-[weibo]:http://weibo.com/linpiaochen
-[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:/img/weibo.png "点击图片进入我的微博"
-[csdn-logo]:/img/csdn.png "我的CSDN博客"
-[code-past]:https://img-blog.csdnimg.cn/201908060004034.png
-[\[1\]]:https://baike.baidu.com/ "百度百科"
+[blog]:http://blog.csdn.net/guodongxiaren "我的博客"
 
 ```text
 // 定义URL变量
-[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
-[zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"
-[weibo]:http://weibo.com/linpiaochen
-[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:/img/weibo.png "点击图片进入我的微博"
-[csdn-logo]:/img/csdn.png "我的CSDN博客"
-[code-past]:https://img-blog.csdnimg.cn/201908060004034.png
-[\[1\]]:https://baike.baidu.com/ "百度百科"
+[blog]:http://blog.csdn.net/guodongxiaren "我的博客"
 ```
